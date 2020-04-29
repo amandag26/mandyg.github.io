@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Feel free to contact me over my portfolio or job prospects in regards to graphic design, 3D modeling, and 3D animation."/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/contact.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queriescontact.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha256-c+C87jupO1otD1I5uyxV68WmSLCqtIoNlcHLXtzLCT0=" crossorigin="anonymous" />
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/8348E224-3681-DB4F-A205-DC87F1C309AE/main.js" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/FC865197-F523-FF4D-8B09-16A4F4985022/abn/main.css"/></head>
+    <body>
+        <header>
+            <nav>
+                    <span class="open-slide">
+                            <a href="#" onclick="openSlideMenu()">
+                                <svg width="30" height="20">
+                                    <path d="M0,2.5 15,2.5" stroke="#ccccff" stroke-width="2"/>
+                                    <path d="M0,7 15,7" stroke="#ccccff" stroke-width="2"/>
+                                    <path d="M0,11.5 15,11.5" stroke="#ccccff" stroke-width="2"/>
+                                </svg>
+                            </a>
+                        </span>
+                <div class="nav-menu">
+                <ul class="main-nav align-left">
+                    <li class="align-left"><a class="non-link" href="#"><img class="logo" src="resources/img/logo.svg" alt="Image of logo"></a></li>
+                    <li class="align-left"><a class="non-link" href="#">Amanda Garibay</a></li>
+                </ul>
+                <ul class="main-nav">
+                    <li><a href="index.html">About Me</a></li>
+                    <li><a href="work.html">Works</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+                </div>
+            </nav>
+            <div id="side-menu" class="side-nav">
+                    <a href="#" class="btn-close" onclick="closeSlideMenu()"><i class="ion-ios-close"></i></a>
+                    <a href="#" class="accordion"><img class="logo" src="resources/img/logo.svg" alt="Image of logo"></a>
+                    <div class="panel">
+                            <a href="index.html">About Me</a>
+                            <a href="work.html">Works</a>
+                            <a href="skills.html">Skills</a>
+                            <a href="#">Contact Me</a>
+                    </div>
+                </div>  
+        </header>
+        <section class="section-form" id="section-form">
+                <div class="row" data-aos="zoom-out" data-aos-duration="1000">
+                    <h2>Contact Me</h2>
+                </div>
+                <div class="row" data-aos="zoom-out" data-aos-duration="1000">
+                    <form name="contact" method="post" action="index.php" class="contact-form">
+                        <div class="row">
+                            <div class="col span-1-of-2">
+                                <input type="text" name="name" id="name" placeholder="Your name" required>
+                            </div>
+                            <div class="col span-1-of-2">
+                                <input type="email" name="email" id="email" placeholder="Your email" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col span-1-of-1">
+                                <input type="text" name="subject" id="subject" placeholder="The Subject" required>
+                            </div>
+                        </div>      
+                        <div class="row">
+                            <textarea name="message" placeholder="Your message"></textarea>
+                        </div>
+                        <input type="submit" value="Send">
+                    </form>
+                </div>
+            </section>
+        <footer>
+            <div class="row">
+                <ul class="social-links">
+                    <li><a href="https://www.behance.net/amandagaribay"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/amanda-g-a9840494/"><i class="ion-social-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </footer>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script src="resources/js/script.js"></script>
+    </body>
+</html>
